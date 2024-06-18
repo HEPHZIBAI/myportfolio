@@ -21,9 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",     // <- Added predeploy script here
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +43,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://HEPHZIBAI.github.io/myportfolio"   // <- Added homepage here
+  }
 }
